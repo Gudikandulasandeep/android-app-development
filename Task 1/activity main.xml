@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_input"
+        android:layout_width="79dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="491dp"
+        android:layout_toEndOf="@+id/output"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="569dp"
+        android:text="@string/output"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_KM_M"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="466dp"
+        android:text="@string/km_m"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_KM_CM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="464dp"
+        android:text="@string/km_cm"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_CM_M"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="368dp"
+        android:text="@string/cm_m"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_CM_KM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="369dp"
+        android:text="@string/cm_km"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_M_CM"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="269dp"
+        android:text="@string/m_cm"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_M_KM"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="269dp"
+        android:text="@string/m_km"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/unit_convertor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/input"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="192dp"
+        android:autofillHints="input"
+        android:ems="10"
+        android:hint="Enter input"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="251dp"
+        android:text="@string/input"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="244dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="69dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_output"
+        android:layout_width="79dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="69dp"
+        android:layout_toEndOf="@+id/output"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp" />
+
+</RelativeLayout>
